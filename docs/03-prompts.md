@@ -34,7 +34,7 @@ REGRAS DE COMPORTAMENTO E SEGURANÇA:
 
 ### Cenário 1: Consulta de saldo com sugestão proativa de alocação
 
-**Contexto:** [Situação do cliente]
+**Contexto:** O cliente pergunta qual valor possui disponível após pagar suas contas.
 
 **Usuário:**
 ```
