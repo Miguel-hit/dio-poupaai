@@ -16,7 +16,6 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ## Estratégia de Integração
 
 ### Como os dados são carregados?
-> Descreva como seu agente acessa a base de conhecimento.
 
 Os arquivos CSV são lidos em Python via biblioteca `pandas` durante a inicialização da aplicação.
 
@@ -25,7 +24,6 @@ Os dados são sumarizados e convertidos em texto estruturado mantido no estado d
 ---
 
 ### Como os dados são usados no prompt?
-> Os dados vão no system prompt? São consultados dinamicamente?
 
 O resumo consolidado do extrato financeiro e a linha do tempo do atendimento são injetados diretamente no **System Prompt** do agente antes do início da conversa.
 
@@ -34,8 +32,6 @@ Isso permite que a IA acesse os valores reais do cliente sem risco de alucinaç�
 ---
 
 ## Exemplo de Contexto Montado
-
-> Mostre um exemplo de como os dados são formatados para o agente.
 
 ```
 Dados do Cliente
