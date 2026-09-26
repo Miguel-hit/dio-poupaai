@@ -3,19 +3,16 @@
 ## Caso de Uso
 
 ### Problema
-> Qual problema financeiro seu agente resolve?
 
 Clientes que possuem saldo mensal positivo frequentemente mantêm seu excedente financeiro ocioso na conta corrente por falta de orientação proativa, organização orçamentária ou conhecimento prático sobre como construir uma reserva de emergência e há um potencial financeiro que deixa de ser aproveitado.
 
 ### Solução
-> Como o agente resolve esse problema de forma proativa?
 
 O agente atua de forma consultiva e proativa. Ele analisa continuamente o extrato do cliente para identificar o saldo disponível real, categorizar gastos e conectar esse excedente às metas do usuário (como a reserva de emergência).
 
 Além disso, utiliza o histórico de atendimentos prévios (dúvidas sobre CDB e Tesouro Selic) para sugerir proativamente a destinação de valores para investimentos de renda fixa com liquidez diária.
 
 ### Público-Alvo
-> Quem vai usar esse agente?
 
 Pessoas físicas com renda regular que buscam organizar o orçamento doméstico, calcular seu saldo livre e construir sua reserva de emergência com o apoio de um assistente virtual intuitivo.
 
@@ -29,7 +26,6 @@ Pessoas físicas com renda regular que buscam organizar o orçamento doméstico,
 ---
 
 ### Personalidade
-> Como o agente se comporta?
 
 Proativo, consultivo, didático, encorajador e focado em objetivos financeiros práticos.
 
@@ -83,7 +79,6 @@ flowchart TD
 - [X] Sugestões são limitadas a produtos de baixo risco com liquidez (CDB e Tesouro Selic) adequados para reserva de emergência conforme citado na base.
 
 ### Limitações Declaradas
-> O que o agente NÃO faz?
 
 - [X] Não realiza transações bancárias: O agente não executa transferências, pagamentos de boletos ou aplicações automáticas.
 - [X] Não fornece consultoria de renda variável: O agente não recomenda ações, derivativos ou criptoativos.
